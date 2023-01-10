@@ -1,0 +1,21 @@
+*{
+    color: coral;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+body{
+    background-color: black;
+    
+}
+#h1{
+    position: relative;
+    text-align: center;
+}
+
+#h1:hover{
+    color: aqua;
+}
+
+@keyframes #f1 {
+    
+}
