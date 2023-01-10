@@ -89,16 +89,7 @@ button{
     position: relative;
     overflow: hidden;
 }
-span{
-    height: 100%;
-    width: 0;
-    border-radius: 25px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: 0.5s;
-}
+
 button:hover span{
     background: #fff;
     width:100%;
@@ -168,39 +159,19 @@ div#CONTACT{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.Login{
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
+
+
+#image{
+    height: 300px;
+    width: 300px;
 }
 
-.inside{
-    max-width: 700px;
-    width: 100%;
-    background: #fff;
-    padding:25px 30px;
-    border-radius: 5px;
-}
-.login.inside.title{
-    font-size: 25px;
-    font-weight: 500;
+#color{
     position: relative;
+    text-align: center;
+    color: chocolate;
 }
 
-.login.inside.title::before{
-    content: '';
-    position : absolute;
-    left: 0;
-    bottom: 0;
-    height: 3px;
-    width: 30px;
-    background: #fff ;
+#color:hover{
+    color: aqua;
 }
-.login.inside form .user-details{
-    display: flex;
-    
-}
-
